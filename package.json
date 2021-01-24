@@ -1,7 +1,7 @@
 {
   "name": "express",
   "version": "1.0.0",
-  "description": "",
+  "description": "node.js app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
