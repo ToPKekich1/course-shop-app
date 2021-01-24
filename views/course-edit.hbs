@@ -4,19 +4,19 @@
 {{/if}}
 <form action="/courses/edit" method="POST" class="course-form">
     <div class="input-field">
-        <input name="title" type="text" id="title" class="validate" value={{course.title}} required>
+        <input name="title" type="text" id="title" class="validate" value="{{course.title}}" required>
         <label for="title">Title</label>
         <span class="helper-text" data-error="Enter course title">
         </span>
     </div>
     <div class="input-field">
-        <input name="price" type="number" id="price" class="validate" value={{course.price}} required min="1">
+        <input name="price" type="number" id="price" class="validate" value="{{course.price}}" required min="1">
         <label for="price">Price</label>
         <span class="helper-text" data-error="Enter course price">
         </span>
     </div>
     <div class="input-field">
-        <input name="img" type="text" id="img" class="validate" value={{course.img}} required>
+        <input name="img" type="text" id="img" class="validate" value="{{course.img}}" required>
         <label for="img">Image URL of course logo</label>
         <span class="helper-text" data-error="Enter course image URL">
         </span>
